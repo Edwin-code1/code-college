@@ -1,0 +1,61 @@
+body {
+    background-color: #F5DEB3;
+  }
+  
+  h1 {
+    font-family: 'Arial Black', sans-serif;
+    color: #8B0000;
+  }
+  
+  .container {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #8B0000;
+    padding: 10px;
+  }
+  
+  .game {
+    background-color: #F5F5F5;
+    border: 2px solid #8B0000;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .choices button {
+    background-color: #8B0000;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .choices button:hover {
+    background-color: #FFF;
+    color: #8B0000;
+  }
+  
+  .results p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #play-again {
+    background-color: #8B0000;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #play-again:hover {
+    background-color: #FFF;
+    color: #005d8b;
+  }
+  
